@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+body {
+    background-color: #e1bfe8;
+}
+
+/* Space XD css */
+.empresa-logo-bg {
+    font-size: 25px;
+    background-color: #c158dc;
+}
+.empresa-logo{
+    text-align: center;
+}
+
+/* Navbar background */
+.nav-style{
+    background-color: #ae52d4;
+
+}
+/* Navbar list */
+.navbar-list{
+    margin: auto;
+    display: inline;
+    width: 50%;
+    padding: 10px;
+    margin-left: 15px;
+}
+
+/* Navbar links */
+.nav-list a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-list a:hover {
+    background-color: #e1bee7
+}
+
+/* Foto css, siguiendo w3shool */
+/* https://www.w3schools.com/howto/howto_css_image_text.asp */
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+/* Centered text */
+
+.main {
+    padding: 10px;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: brightness(50%);
+  }
+
+  /* Article styles */
+  .article-index {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+
+  /* Footer styles */
+footer {
+    background-color: #c158dc;
+}
+.right-footer{
+      text-align: right;
+  }
+  .left-footer{
+    text-align: left;
+}
+footer span {
+    display: inline;
+}
