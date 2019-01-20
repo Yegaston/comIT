@@ -88,10 +88,9 @@ mb-15 {
     /* background-color: #6d6d6d; */
 }
 
-/* Footer */
-.footer {
-    margin: 15px;
-    background-color: #424242;  
+.col33 {
+    width: 33%;
+    float: left;
 }
 
 .col50 {
@@ -100,3 +99,9 @@ mb-15 {
     
 }
 
+
+/* Footer */
+.footer {
+    margin: 15px;
+    background-color: #424242;  
+}
