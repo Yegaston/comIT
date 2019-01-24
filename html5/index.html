@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulario</title>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Sarabun" rel="stylesheet">
+
+
+    <!-- Css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <header>
+        <h1 class="brand">Comunidad IT</h1>
+    </header>
+
+    <nav>
+        <h1>Inscripcion! :D</h1>
+    </nav>
+
+    <article>
+        <form method="get">
+            <!-- Data personal. -->
+            <div class="datapersonal mt-5">
+                <h2>Datos personales</h1>
+                    <!-- Nombre -->
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="nombre" required>
+                    <br>
+                    <!-- Apellido -->
+                    <label for="apellido">Apellido</label>
+                    <input type="text" name="Apellido" required>
+                    <br>
+                    <!-- Fecha de nacimiento -->
+                    <label for="fechaNacimiento">Fecha de nacimiento</label>
+                    <input type="date" name="fechaNacimiento" required>
+                    <br>
+                    <!-- Dni -->
+                    <label for="dni">Documento Nacional de Identidad.</label>
+                    <input type="number" name="dni" required>
+                    <br>
+            </div>
+
+            <!-- Data de contacto -->
+            <div class="datacontacto mt-5">
+                <h2>Datos de contacto.</h1>
+                    <!-- Email -->
+                    <label for="email">Email</label>
+                    <input type="email" name="email" required>
+                    <br>
+                    <!-- Numero de telefono -->
+                    <label for="numdetel">Numero de telefono</label>
+                    <input type="number" name="numdetel" required>
+                    <br>
+                    <!-- Provincia -->
+                    <label for="provincia">Provincia</label>
+                    <input type="text" name="provincia" required>
+                    <br>
+                    <!-- Ciudad -->
+                    <label for="ciudad">Ciudad</label>
+                    <input type="text" name="ciudad" required>
+                    <br>
+                    <!-- Codigo postal -->
+                    <label for="codpostal">Codigo postal</label>
+                    <input type="number" name="codpostal" required>
+            </div>
+            <!-- Nivel de estudios -->
+            <div class="nvlestudios mt-5">
+                <h2>Estudios</h1>
+                    <!-- Nivel -->
+                    <label for="nde">Nivel de estudios.</label>
+                    <select name="nde">
+                        <option value="1">Primario</option>
+                        <option value="2">Secundario</option>
+                        <option value="3">Terciario</option>
+                        <option value="4">Universitario</option>
+                        <option value="5">Tecnico</option>
+                    </select>
+                    <br>
+                    <!-- Estado -->
+                    <div>
+                        <label for="ede">Estado de estudios</label>
+                        <input type="radio" name="ede" value="completo">Completo :D
+                        <input type="radio" name="ede" value="curso">En curso :|
+                        <input type="radio" name="ede" value="incompleto">Incompleto :(
+
+                    </div>
+            </div>
+            <br>
+
+            <!-- Buttons -->
+
+            <button type="submit">Enviar</button>
+
+        </form>
+    </article>
+</body>
+
+</html>

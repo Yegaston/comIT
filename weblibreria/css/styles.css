@@ -72,6 +72,10 @@ mb-15 {
 .nav > ul > li > a:hover {
     background-color: #2286c3;
 }
+
+.current {
+    color: gray;
+}
 /* Main */
 
 .main-container {
