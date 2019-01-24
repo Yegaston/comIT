@@ -26,3 +26,7 @@ nav{
     background-color: #1976d2;
     color: white;
 }
+
+.pl-5 {
+    padding-left: 5px;
+}
