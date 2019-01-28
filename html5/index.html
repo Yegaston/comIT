@@ -33,19 +33,20 @@
                 <h2>Datos personales</h1>
                     <!-- Nombre -->
                     <label for="nombre">Nombre</label>
-                    <input type="text" name="nombre" required>
+                    <input type="text" name="nombre" placeholder="Nombre" required>
                     <br>
                     <!-- Apellido -->
                     <label for="apellido">Apellido</label>
-                    <input type="text" name="Apellido" required>
+                    <input type="text" name="Apellido" required placeholder="Apellido">
                     <br>
                     <!-- Fecha de nacimiento -->
                     <label for="fechaNacimiento">Fecha de nacimiento</label>
-                    <input type="date" name="fechaNacimiento" required>
+                    <p>Fecha de nacimiento</p>
+                    <input type="date" name="fechaNacimiento" required placeholder="Edad" data-date-inline-picker="true">
                     <br>
                     <!-- Dni -->
                     <label for="dni">Documento Nacional de Identidad.</label>
-                    <input type="number" name="dni" required>
+                    <input type="number" name="dni" placeholder="D.N.I" required>
                     <br>
             </div>
 
@@ -54,23 +55,23 @@
                 <h2>Datos de contacto.</h1>
                     <!-- Email -->
                     <label for="email">Email</label>
-                    <input type="email" name="email" required>
+                    <input type="email" name="email" placeholder="Email" required>
                     <br>
                     <!-- Numero de telefono -->
                     <label for="numdetel">Numero de telefono</label>
-                    <input type="number" name="numdetel" required>
+                    <input type="number" name="numdetel" placeholder="Numero de telefono" required>
                     <br>
                     <!-- Provincia -->
                     <label for="provincia">Provincia</label>
-                    <input type="text" name="provincia" required>
+                    <input type="text" name="provincia" placeholder="Provincia" required>
                     <br>
                     <!-- Ciudad -->
                     <label for="ciudad">Ciudad</label>
-                    <input type="text" name="ciudad" required>
+                    <input type="text" name="ciudad" placeholder="Ciudad" required>
                     <br>
                     <!-- Codigo postal -->
                     <label for="codpostal">Codigo postal</label>
-                    <input type="number" name="codpostal" required>
+                    <input type="number" name="codpostal" placeholder="Codigo postal" required>
             </div>
             <!-- Nivel de estudios -->
             <div class="nvlestudios mt-5">
@@ -88,7 +89,8 @@
                     <!-- Estado -->
                     <div>
                         <label for="ede">Estado de estudios</label>
-                        <input class="pl-5" type="radio" name="ede" value="completo">Completo :D
+                        <br>
+                        <input type="radio" name="ede" value="completo">Completo :D
                         <input class="pl-5" type="radio" name="ede" value="curso">En curso :|
                         <input class="pl-5" type="radio" name="ede" value="incompleto">Incompleto :(
 

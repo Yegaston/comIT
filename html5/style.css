@@ -14,6 +14,9 @@ form {
 .mt-5 {
     margin-top: 5px;
 }
+.pl-5 {
+    margin-left: 5px;
+}
 
 header {
     text-align: center;
@@ -30,3 +33,22 @@ nav{
 .pl-5 {
     padding-left: 5px;
 }
+
+
+
+/* Esto hace desaparecer las flechitas de los inputs numericos. */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+article > form > div > label {
+    display: none;
+}
+
+article > form > div > input{
+    margin-top: 5px;
+}
+
