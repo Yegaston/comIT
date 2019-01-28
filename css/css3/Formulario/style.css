@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.mt-5 {
+    margin-top: 10px;
+}
+
+.ml-5 {
+    margin-left: 50px;
+}
+
+.mr-5 {
+    margin-right: 5px;
+}
+
+.color-green {
+    background-color: green;
+}
+
+.color-gainsboro {
+    background-color: #dddddd ;
+}
+.color-snapchat {
+    background-color: #ffff26;
+}
+.color-googleplus {
+    background-color: orangered;
+}
+
+.color-linkedin {
+    background-color: #00468c;
+}
+
+.color-facebook {
+    background-color: #2626ff;
+}
+
+.color-transparent {
+    background-color: transparent;
+}
+
+header {
+    background-color: black;
+    color: white;
+}
+
+header > h1 {
+    padding: 5px;
+    text-align: center;
+}
+
+.row-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+article > form > div > label {
+    display: none;
+}
+
+article > form > div > input {
+    border-radius: 15px;
+    font-size: 25px;
+    border-color: black;
+    padding: 5px 5px 5px 15px;
+    outline: none;
+}
+
+article > form > div > input:hover {
+    border-color: blue;
+}
+
+.row-2 {
+    display: flex;
+    flex: 2;
+    align-items: center;
+}
+article > form > div.row-2 {
+    margin: auto;
+    width: 50%;
+}
+
+/* article > form > div.row-2 > div { */
+
+/* } */
+
+article > form > div.row-2 > div > button {
+    /* background-color: transparent; */
+    font-size: 25px;
+    padding: 5px;
+    border-color: black;
+    border-radius: 5px;
+}
+
+article > form > div.row-2 > div > button:hover {
+    color: white;
+}
+
+.row-4 {
+    display: flex;
+    flex-direction: row;
+    flex: 4;
+    align-items: center;
+}
+
+article > form > div.row-4 {
+    margin: auto;
+    width: 50%;
+}
+
+article > form > div.row-4 > div > h2 {
+   font-size: 25px;
+   padding: 5px;
+   align-content: center;
+}
+
+article > form > div.row-4 > div {
+    border-radius: 5px;
+}
+
+article > form > div.row-4 > div:hover {
+    color:white;
+}
