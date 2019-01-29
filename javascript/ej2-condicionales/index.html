@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Condicionales</title>
+</head>
+
+<body>
+<!--
+    <script>
+        var a = 2, b = 2
+
+        if (a == b) {
+            alert( a + '=' + b)
+        } else if (a > b) {
+            alert(a + ">" + b + "y son distintos")
+        } else if (b > a) {
+            alert(b + ">" + a + "y son distintos")
+        }
+
+    </script>
+
+-->
+
+    <script>
+        
+
+        var a = parseInt(prompt("Ingrese un numero."));
+
+        switch(a){
+            case 1:
+            case 2:
+            case 3:
+                alert('Pertenece al grupo 1');
+            break
+            case 4:
+            case 5:
+            case 6:
+            case 7:
+                alert('Pertenece al grupo 2');
+            break
+            case 8:
+            case 9:
+            case 10:
+                alert('Pertenece al grupo 3');
+            break
+
+            default:
+            alert("No pertenece a ningun rango")
+            break
+        }
+
+    </script>
+
+</body>
+
+</html>
