@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.ml-5 {
+    margin-left: 5px;
+}
+
+header {
+    background-color: black;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+article > div > form > div {
+    margin-top: 15px;
+}
+
+input:focus {
+    outline: blue;
+}
+
+input:hover {
+    border-color: yellowgreen;
+}
+
+.input-text {
+    font-size: 25px;
+    border-color: black;
+    border-radius: 5px;
+    padding: 5px;    
+}
+
+.social-net:hover {
+    opacity: 0.7;
+}
+
+.btn:hover {
+    opacity: 0.7;
+}
+
+/* esto elimina las flechitas de los inputs numeros. */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+
+.input-number {
+    font-size: 25px;
+    border-color: black;
+    border-radius: 5px;
+    padding: 5px;    
+    /* Esto sirve para sacar las flechas. */
+
+}
+
+.row-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex: 2;
+}
+
+.row-4 {
+    display: flex;
+    flex-direction: row;
+    flex: 4;
+    justify-content: center;
+}
+
+.btn {
+    font-size: 25px;
+    height: 100%; 
+    background-color: transparent;
+    border-color: black;
+    border-radius: 5px;
+    padding: 5px;
+    
+}
+
+.social-net {
+    border-color: black;
+    border: 1px;
+    border-radius: 15px;
+    padding: 16px;
+    margin-left: 5px;
+    color: white;
+}
+.background-limpiar {
+    background-color: #dddddd;
+}
+
+.background-enviar {
+    background-color: #008c46;
+}
+
+.background-fb {
+    background-color: #2626ff;
+}
+
+.background-ln {
+    background-color: #00468c;
+}
+
+.background-gp {
+    background-color: #ff0000;
+}
+
+.background-sn {
+    background-color: #ffff26;
+}
+
