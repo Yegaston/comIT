@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Html 5</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    
+    <script>
+        // var num1 = parseInt(prompt("Ingrese el numero 1"))
+        // var num2 = parseInt(prompt("Ingrese el numero 2"))
+
+        function DevolverMayor(n1, n2){
+            if(n1 > n2){
+                console.log("El numero 1 es mayor al numero 2")
+            } else if(n2 > n1){
+                console.log("El numero 2 es mayor al numero 1")
+            } else {
+                console.log("Los dos numeros son iguales.")
+            }
+        }
+
+        // DevolverMayor(num1, num2)
+
+        // var cad1 = prompt("Ingrese el primer string")
+        // var cad2 = prompt("Ingrese el segundo string")
+
+        function ConcadenaStrings(c1, c2){
+            console.log(c1 + c2)
+        }
+
+        // ConcadenaStrings(cad1, cad2)
+
+        var cant = parseInt(prompt("Ingrese la cantidad e astericos."))
+
+        function Asterixd(cant){
+            var string = ''
+            for(var i = 0; i < cant; i++){
+                string += '*'
+            }
+            console.log(string)
+
+        }
+
+        Asterixd(cant)
+
+
+    </script>
+
+</body>
+</html>

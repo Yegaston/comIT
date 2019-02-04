@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portero Electrico.</title>
+
+    <!-- Css -->
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <!-- Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Animate Css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+</head>
+
+<body class="animated rollIn">
+
+    <!-- Header -->
+    <header>
+        <h1 class="animated bounce">Portero Electrico.</h1>
+        <p>:D</p>
+    </header>
+
+    <!-- Botonera -->
+    <div class="botonera mt-15">
+
+        <div class="pisoDepto">
+            <div class="row-2">
+                <input id="display" class="mr-15 display" type="text" placeholder="display">
+            </div>
+        </div>
+
+        <div class="numerosP">
+            <div class="row-3">
+                <input type="button" id="n1" class="btn btn-numero" value="1" onClick='handlerButton(1)'></input>
+                <input type="button" id="n2" class="btn btn-numero" value="2" onClick='handlerButton(2)'></input>
+                <input type="button" id="n3" class="btn btn-numero" value="3" onClick='handlerButton(3)'></input>
+                <input type="button" id="sumar" class="btn btn-numero" value="+" onClick='sumar()'></input>
+            </div>
+            <div class="row-3">
+                <input type="button" id="n4" class="btn btn-numero" value="4" onClick='handlerButton(4)'></input>
+                <input type="button" id="n5" class="btn btn-numero" value="5" onClick='handlerButton(5)'></input>
+                <input type="button" id="n6" class="btn btn-numero" value="6" onClick='handlerButton(6)'></input>
+                <input type="button" id="restar" class="btn btn-numero" value="-" onClick='restar()'></input>
+            </div>
+            <div class="row-3">
+                <input type="button" id="n7" class="btn btn-numero" value="7" onClick='handlerButton(7)'></input>
+                <input type="button" id="n8" class="btn btn-numero" value="8" onClick='handlerButton(8)'></input>
+                <input type="button" id="n9" class="btn btn-numero" value="9" onClick='handlerButton(9)'></input>
+                <input type="button" id="multiplicar" class="btn btn-numero" value="*" onClick='multiplicar()'></input>
+            </div>
+            <div class="row-3">
+                <input type="button" id="clear" class="btn btn-numero" value="clear" onClick='cls()'></input>
+                <input type="button" id="n0" class="btn btn-numero" value="0" onClick='handlerButton(0)'></input>
+                <input type='button' id="igual" class="btn btn-numero" value="=" onClick='igual()'></input>
+                <input type="button" id="dividir" class="btn btn-numero" value="/" onClick='dividir()'></input>
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Impresion del piso llamado. -->
+    <div class="row-2">
+        <h1 id="llamadoCas" class="animated infinite heartBeat delay-5s"></h1>
+    </div>
+
+
+    <script src="./js/app.js"></script>
+</body>
+
+</html>

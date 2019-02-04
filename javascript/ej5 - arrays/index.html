@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Arrays</title>
+</head>
+<body>
+    <script>
+    
+    var vec = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    var rta = 0
+    var acum = 0
+    for (var i = 0; i < vec.length; i++){
+        rta = vec[i] * vec[i-1]
+        acum += rta
+
+    }
+    console.log(acum)
+    </script>
+</body>
+</html>
