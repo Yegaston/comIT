@@ -11,11 +11,9 @@ function cls(){
     acum = 0;
 }
 function handlerButton(n){
-    console.log(n);
     display.value += n
 }
 function sumar(){
-    sumar('sumar')
     acum = display.value
     op = '+'
     display.value = ''
@@ -56,11 +54,16 @@ function igual(){
         break;
         case '/':
             rta = n1 / parseFloat(display.value)
-            display.value = rta
+            if(rta == Infinity){
+                display.value = 'MATH ERROR. xd'
+            } else {
+                display.value = rta
+            }
         break;
             default:
                 console.log('xd')
             break;
+            
     }
 }
 

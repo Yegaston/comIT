@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1 {
+    font-size: 35px;
+}
+h2{
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+p {
+    font-size: 20px;
+}
+
+header {
+    background-color: #ef9a9a;
+    padding: 5px;
+    text-justify: center;
+}
+
+header > p, h1 {
+    padding: 5px;
+    text-align: center;
+}
