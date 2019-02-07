@@ -31,3 +31,29 @@ header > p, h1 {
     padding: 5px;
     text-align: center;
 }
+
+
+.btn {
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border-color: black; 
+    border-radius: 5px;
+    margin-left: 5px;
+    text-align: center;
+}
+.btn:hover {
+    border-color: blue;
+}
+
+input {
+    margin: 5px;
+    width: 100%;
+
+}
+
+.flexRow {
+    float: left;
+}
+.btnDelete {
+}
