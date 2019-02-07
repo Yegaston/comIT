@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,19 +11,32 @@
 
     <link rel="stylesheet" href="./css/styles.css">
 </head>
-<body>
+
+<body id="body">
     <header>
         <h1>Botoncitos Fantasticos</h1>
         <p>Cambian de color :D</p>
     </header>
 
-    <section>
-        <button id="btn1" class="btn"><p id="txt1"></p></button>
-        <button id="btn2" class="btn"><p id="txt2"></p></button>
-        <button id="btn3" class="btn"><p id="txt3"></p></button>
-        <button id="btn4" class="btn"><p id="txt4"></p></button>
+    <section class="container">
+        <button id="btn1" class="btn bg-red ">
+            <p id="txt1"></p>
+        </button>
+        <button id="btn2" class="btn bg-yellow ">
+            <p id="txt2"></p>
+        </button>
+        <button id="btn3" class="btn bg-green ">
+            <p id="txt3"></p>
+        </button>
+        <button id="btn4" class="btn bg-gray">
+            <p id="txt4"></p>
+        </button>
     </section>
 
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
     <script src="./js/app.js"></script>
 </body>
+
 </html>

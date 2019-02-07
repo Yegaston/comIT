@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+header {
+    background: #4ECDC4;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #556270, #4ECDC4);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #556270, #4ECDC4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 15px;
+    text-align: center;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    columns: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    width: 50%;
+    height: 50px;
+    margin: 25px;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.bg-yellow{
+    background-color: yellow;
+}
+
+.bg-green{
+    background-color: green;
+}
+
+.bg-gray {
+    background-color: gray;
+}
+
+.bg-blue {
+    background-color: blue;
+}
+
